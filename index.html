@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Bootsrap 5.2 Core-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!--In-Code Style-->
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="container my-3">
+        <div class="row">
+            <div class="col text-center">
+                <button class="btn btn-lg btn-outline-danger" 
+                onclick="button_click1(); button_click2(); console.log('In-Line Script');() => {console.log('Buton Tıklandı');}">
+                    Tıkla
+                </button>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto">
+                <button class="btn btn-danger" ondblclick="red()">Kırmızıya Boya </button><br>
+                <button class="btn btn-success">Yeşile Boya </button><br>
+                <button class="btn btn-warning">Sarıya Boya </button><br>
+            </div>
+            <div class="col">
+                <p id="p1" class="pr">Lorem ipsum dolor sit amet.</p>
+                <p class="pr">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="pr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio facilis ratione sunt vel doloribus.</p>
+                <p name="son" class="pr">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+    </div>
+    <!--Bootsrap 5.2 Bundle Core-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <!---Custom Scripts-->
+    <!----<script src="custom.css"></script>
+    In-Code script-->
+    <script src="events.js"></script>
+   
+</body>
+
+</html>
